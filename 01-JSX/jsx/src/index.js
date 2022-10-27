@@ -10,7 +10,8 @@ const root = ReactDOM.createRoot(el); // tell react show application inside this
 
 // todo 4: create a component, a function that return jsx
 function App() {
-  return <h1>Hello World!</h1>;
+  const message = "Hi there!";
+  return <h1>{message}</h1>;
 }
 
 // todo 5: show the component on the screen
