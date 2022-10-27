@@ -10,8 +10,15 @@ const root = ReactDOM.createRoot(el); // tell react show application inside this
 
 // todo 4: create a component, a function that return jsx
 function App() {
-  const message = "Hi there!";
-  return <h1>{message}</h1>;
+  const min = 5;
+  return (
+    <input
+      type="number"
+      min={min}
+      max={10}
+      style={{ border: "3px solid red" }}
+    />
+  );
 }
 
 // todo 5: show the component on the screen
